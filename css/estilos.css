@@ -117,8 +117,9 @@ h2 {
 .logo:after {
   content: "/DCruzjs";
   font-size: 2em;
+  font-family: 'Ubuntu Mono', monospace;
   position: relative;
-  top: 7px;
+  top: 10px;
 }
 
 .portfolio {
