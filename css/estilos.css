@@ -166,14 +166,26 @@ h2 {
   max-width: 100%;
 }
 
-.project-imageContainer.container-codecademy {
-  width: 35%;
-  background: #49a9f8;
+/* Estilos para el card de codecademy */
+.project.codecademy-container {
+  display: block;
+
 }
 
-/* .project-image.codecademy {
+.code-details-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-imageContainer.container-codecademy {
+  background: #49A9F8;
   width: 35%;
-} */
+}
+
+.code-details-container .in-progress {
+  color: #FFC740;
+}
 
 
 .header {
@@ -534,6 +546,9 @@ figure {
 
   }
 
+ 
+
+
   .event {
     width: auto;
     flex-shrink: initial;
@@ -549,13 +564,29 @@ figure {
   .project {
     display: block;
   }
+  .code-details-container {
+    display: block;
+  }
+
   .project-imageContainer {
     width: auto;
     text-align: center;
   }
+
+  .project-imageContainer.container-codecademy {
+    width: 95%;
+    margin: 5% auto 0;
+  }
+
+  .icons-description.icons-description-codecademy {
+    max-height: 300px;
+  }
+
+ 
+
   .project-details {
     width: auto;
-
+  }
   .project-details {
     font-size: 14px;
   }
@@ -591,6 +622,7 @@ figure {
 
   .icons-description {
     max-height: 150px;
+    justify-content: space-between;
   }  
 }
 
