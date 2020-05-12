@@ -473,7 +473,7 @@ figure {
   }
   .header {
     display: block;
-    height: 4.5em;
+    height: auto;
     display: flex;
     justify-content: center;
   }
