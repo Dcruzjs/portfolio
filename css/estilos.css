@@ -62,26 +62,20 @@ h6{
   margin-top: 5%;
 }
 
-/* .fab.fa-js {
-  font-size: 3em;
-  color: yellow;
+.icons-description {
+  display: flex;
+  max-height: 200px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-top: 5%;
 }
 
-.fab.fa-html5 {
-  font-size: 3em;
-  color: red;
-}
-
-.fab.fa-css3-alt {
-  font-size: 3em;
-  color: blue;
-}
-
-.fab.fa-github {
+#course-items {
+  color: black;
+  font-size: 1.2em;
   
-  color:black;
-  font-size: 3em;
-} */
+}
 
 h1 {
   font-size: 40px;
@@ -449,7 +443,7 @@ figure {
 
 @media screen and (max-width: 767px) {
   h2 {
-    font-size: 1.2em;
+    font-size: 24px;
     margin: .5em 0;
   }
   .burger-button {
@@ -496,14 +490,14 @@ figure {
   }
 
   .project {
-    display: block;
+    display: flex;
   }
   .project-imageContainer {
-    width: auto;
+    width: 50%;
     text-align: center;
   }
   .project-details {
-    width: auto;
+    width: 50%;
     /* font-size: 10px; */
   }
   .project-course, .project-date, .project-url { 
@@ -542,6 +536,16 @@ figure {
 
 @media screen and (max-width: 479px) {
 
+  .project {
+    display: block;
+  }
+  .project-imageContainer {
+    width: auto;
+    text-align: center;
+  }
+  .project-details {
+    width: auto;
+
   .project-details {
     font-size: 14px;
   }
@@ -574,6 +578,10 @@ figure {
     height: 40px;
     background-size: 100%;
   }
+
+  .icons-description {
+    max-height: 150px;
+  }  
 }
 
 
