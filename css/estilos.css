@@ -166,6 +166,16 @@ h2 {
   max-width: 100%;
 }
 
+.project-imageContainer.container-codecademy {
+  width: 35%;
+  background: #49a9f8;
+}
+
+/* .project-image.codecademy {
+  width: 35%;
+} */
+
+
 .header {
   /* background-color: #1b2127; */
   background-color: #15141F;
