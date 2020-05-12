@@ -50,7 +50,8 @@ h6{
 .fab.fa-github,
 .fab.fa-html5,
 .fab.fa-css3-alt,
-.fab.fa-js {
+.fab.fa-js,
+.fab.fa-react {
   font-size: 3.5em;
   color: white;
 }
@@ -513,15 +514,15 @@ figure {
     margin-bottom: .3em;
   }
   .project-url {
-    font-size: 1em;
+    font-size: .9em;
 
   }
   .project-course {
-    font-size: .7em;
+    font-size: 1.5em;
 
   }
   .project-date {
-    font-size: 1em;
+    font-size: .9em;
 
   }
   .project-description {
