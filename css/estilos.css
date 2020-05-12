@@ -46,33 +46,26 @@ h6{
   /* font-style: italic; */
 }
 
-
-.fab.fa-github,
-.fab.fa-html5,
-.fab.fa-css3-alt,
-.fab.fa-js,
-.fab.fa-react {
-  font-size: 3.5em;
-  color: white;
-}
-
 .icons {
   display: flex;
   justify-content: space-between;
   margin-top: 5%;
+  font-size: 3em;
+  color: white;
 }
 
 .icons-description {
   display: flex;
+  color: black;
   max-height: 200px;
   flex-direction: column;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   margin-top: 5%;
 }
 
 #course-items {
-  color: black;
+  
   font-size: 1.2em;
   
 }
@@ -163,7 +156,7 @@ h2 {
 }
 
 .project-imageContainer img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 /* Estilos para el card de codecademy */
@@ -183,8 +176,9 @@ h2 {
   width: 35%;
 }
 
-.code-details-container .in-progress {
+.in-progress {
   color: #FFC740;
+  font-weight: bold;
 }
 
 
