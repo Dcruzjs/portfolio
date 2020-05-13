@@ -192,12 +192,13 @@ h2 {
   justify-content: space-between;
   flex-wrap: wrap;
   /* position: -webkit-sticky; */
-  /* position: fixed; */
+  position: fixed;
+  width: 100%;
   /* top: -1px; */
   z-index: 20;
 }
 h2:target {
-  padding-top: 4em;
+  padding-top: 3em;
 }
 
 ol,
@@ -326,7 +327,8 @@ figure {
   flex-wrap: wrap;
 }
 
-.contact-title {
+.contact-title,
+.contact-title h3:target { 
   padding: 2% 0 0 3%;
 }
 
@@ -476,6 +478,7 @@ figure {
   }
   .burger-button {
     display: block;
+    z-index: 30;
   }
   .header {
     display: block;
