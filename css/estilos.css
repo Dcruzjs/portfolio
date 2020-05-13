@@ -191,6 +191,13 @@ h2 {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  /* position: -webkit-sticky; */
+  /* position: fixed; */
+  /* top: -1px; */
+  z-index: 20;
+}
+h2:target {
+  padding-top: 4em;
 }
 
 ol,
@@ -258,12 +265,14 @@ figure {
   flex-wrap: wrap;
 }
 
-.footer img {
+/* .footer img {
   vertical-align: middle;
-}
+} */
 
+.footer p,
 .footer a {
   color: white;
+  font-family: ubuntu;
 }
 
 .event-list {
@@ -311,34 +320,37 @@ figure {
   background-color: #211E2F;
   color: white;
   height: 150px;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.social {
+.contact-title {
+  padding: 2% 0 0 3%;
 }
+
 
 .social-link {
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin: 0 10px;
+  margin: 0 30px;
   background-size: 50px 50px;
 }
 
-.social-link.twitter {
-  background-image: url('../images/twitter.svg');
-}
-.social-link.facebook {
-  background-image: url('../images/facebook.svg');
-}
+
 .social-link.github {
-  background-image: url('../images/github.svg');
+  background-image: url(../images/github.svg);
 }
-.social-link.instagram {
-  background-image: url('../images/instagram.svg');
+.social-link.linkedin {
+  background-image: url(../images/linkedin.svg);
+}
+.social-link.skype {
+  background-image: url(../images/skype.svg);
+}
+.social-link.gmail {
+  background-image: url(../images/gmail.svg);
 }
 
 .container {
