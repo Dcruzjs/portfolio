@@ -191,10 +191,12 @@ h2 {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* position: -webkit-sticky; */
-  position: fixed;
+  position: sticky;
+  position: -webkit-sticky;
+  top: -1px;
+  /* position: fixed; */
   width: 100%;
-  /* top: -1px; */
+  
   z-index: 20;
 }
 h2:target {
@@ -640,6 +642,11 @@ figure {
   h1 {
     font-size: 2em;
    
+  }
+
+  .social-link.skype,
+  .social-link.gmail {
+    margin-top: 5%;
   }
 }
 
