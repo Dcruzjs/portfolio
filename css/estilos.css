@@ -46,6 +46,11 @@ h6{
   /* font-style: italic; */
 }
 
+.external-link {
+  text-decoration: none;
+  color: black;
+}
+
 .icons {
   display: flex;
   justify-content: space-between;
